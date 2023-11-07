@@ -2,7 +2,7 @@ import React from 'react';
 
 const Button = (props) => {
     return (
-        <button className={`btn btn--${props.kind} CTA`}
+        <button style={{backgroundColor:"orange"}}
         data-id={props.id} 
         type={props.type} 
         name={props.name}
