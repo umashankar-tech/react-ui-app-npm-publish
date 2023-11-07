@@ -15,6 +15,13 @@ Object.defineProperty(exports, "Button", {
     return _Button.default;
   }
 });
+Object.defineProperty(exports, "Header", {
+  enumerable: true,
+  get: function get() {
+    return _h1Tag.default;
+  }
+});
 var _Badge = _interopRequireDefault(require("./components/Badge"));
 var _Button = _interopRequireDefault(require("./components/Button"));
+var _h1Tag = _interopRequireDefault(require("./components/h1Tag"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }

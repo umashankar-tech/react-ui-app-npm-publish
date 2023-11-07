@@ -1,5 +1,6 @@
 import Button from './lib/components/Button';
 import Badge from './lib/components/Badge';
+import { Header } from './lib';
 import './App.css';
 
 function App() {
@@ -16,6 +17,8 @@ function App() {
       <br/>
      <h5>A button:</h5>
         <Button label="Enter" kind="primary"/>
+
+        <Header text="Umashankar" />
     </div>
   );
 }
